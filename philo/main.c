@@ -14,6 +14,10 @@
 
 int main(void)
 {
-	printf("Hello World\n");
+	struct timeval g_start_time;
+
+
+	gettimeofday(&g_start_time, NULL);
+	printf("%ld seconds and %ld milliseconds\n", g_start_time.tv_sec, g_start_time.tv_usec);
 	return 0;
 }

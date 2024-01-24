@@ -14,6 +14,6 @@
 # define PHILO_H
 
 # include <stdio.h> // DONT FORGET TO REMOVE
-
+# include <sys/time.h>
 
 #endif
