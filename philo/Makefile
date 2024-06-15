@@ -34,6 +34,7 @@ clean:
 
 fclean: 		clean
 #				@clear
+				@$(RM) $(NAME)
 				@echo "Full Clean OK ";
 
 re: 			fclean all
