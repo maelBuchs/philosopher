@@ -1,11 +1,16 @@
 NAME =	philo
 
 CC = cc
-CFLAGS = -g
-# CFLAGS = -Wall -Wextra -Werror -g
+# CFLAGS = -g
+CFLAGS = -Wall -Wextra -Werror -g
 RM = rm -rf
 HEAD = push_swap.h
 SRCS = 	main.c\
+		monitor.c\
+		parsing.c\
+		philosophers.c\
+		time.c\
+		utils.c\
 
 
 OBJS = $(SRCS:.c=.o)
